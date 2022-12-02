@@ -1,15 +1,18 @@
 /*import ClassComponent from './ClassComponent'*/
 /*import PropsExample from './PropsExample'*/
-import Demo from './Demo'
-import StateExample from './StateExample't
-import FuncProps from './FuncProps'
+/*import Demo from './Demo'
+import FuncProps from './FuncProps'*/
+import StateExample from './StateExample'
 import Events from './Events'
+import JSX from './JSX'
 function App(){
   return(
     <section>
     <Events/>
-    {/*Demo name="vasu"/>
+    <JSX/>
     <StateExample/>
+    {/*Demo name="vasu"/>
+    
     <FuncProps carname="swift" year="1956"/>*/}
     {/* <p>good afternoon</p>
      <h1>heading tag</h1>
