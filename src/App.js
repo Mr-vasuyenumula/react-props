@@ -1,11 +1,25 @@
-import Home from './components/Home'
+import SendingData from './SendingData'
+
+function App(){
+    return(
+        <div>
+          <SendingData/>
+
+        </div>
+    )
+}
+
+export default App
+
+
+/*import Home from './components/Home'
 import Contact from './components/Contact'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import NotFound from './components/NotFound'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'*/
 
-
+{/*
 function App(){
   return(
        <div className="vasu">
@@ -22,7 +36,7 @@ function App(){
        </div>
     )
 }
-export default App
+export default App*/}
 
 
 /*import ClassComponent from './ClassComponent'
